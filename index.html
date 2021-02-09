@@ -13,14 +13,14 @@
 <div class="container">
     <h2>Formulaire de saisie avec contrôle</h2>
 
-    <label for="nom">Nom</label>
-    <input type="text" name="saisie" id="nom">
+    <label for="nom">Nom<span class="exposant">*</span></label>
+    <input type="text" name="saisie" id="nom" tabindex="0">
 
     <label for="saisie">Saisissez un nombre<span class="exposant">*</span></label>
-    <input type="text" name="saisie" id="saisie">
+    <input type="text" name="saisie" id="saisie" tabindex="1">
 
-    <button id="bouton">Ok</button>
-    <p><span class="exposant">*</span> Champ obligatoire</p>
+    <button id="bouton" tabindex="2">Ok</button>
+    <p><span class="exposant">*</span>Champ obligatoire</p>
 </div>
 </body>
 </html>
